@@ -1,0 +1,22 @@
+{
+  "development": {
+    "use_env_variable": "POSTGRES_URI",
+    "logging": false,
+    "dialect": "postgres",
+    "ssl": false,
+    "dialectOptions": {
+      "ssl": false
+    },
+    "migrationStorageTableName": "sequelize_meta"
+  },
+  "production": {
+    "use_env_variable": "POSTGRES_URI",
+    "logging": false,
+    "dialect": "postgres",
+    "ssl": false,
+    "dialectOptions": {
+      "ssl": false
+    },
+    "migrationStorageTableName": "sequelize_meta"
+  }
+}
